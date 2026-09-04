@@ -56,3 +56,15 @@ The purpose of this project is to capture and analyze network traffic at various
 By comparing the traffic streams, the security benefits of TLS are highly visible:
 *   **HTTP Traffic (Unencrypted):** Following the stream revealed the payload in **plaintext**. The exact HTML code, headers, and website content were perfectly readable to anyone monitoring the network.
 *   **TLS Traffic (Encrypted):** The payload was classified as **Encrypted Application Data**. Instead of readable code, the packet only contained random, scrambled ciphertext. Because the data is locked behind the Cipher Suite agreed upon during the handshake, a network eavesdropper cannot read or manipulate the actual contents of the communication.
+
+## 💡 Project Value (For Interviews & Resume)
+
+> "I analyzed live network traffic across Linux and Windows using Wireshark, identified protocol behaviors and suspicious patterns, and mapped them to cloud security controls such as AWS VPC Flow Logs and Azure NSG rules. This project demonstrates my ability to turn low-level traffic visibility into cloud-native security decisions."
+
+---
+
+## 📝 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+![Status Complete](https://img.shields.io/badge/Status-Complete-brightgreen)
